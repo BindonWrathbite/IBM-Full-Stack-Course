@@ -66,7 +66,7 @@
                 <!--Weight conversion section-->
                 <div id="wgt">
                     <figure>
-                        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png">
+                        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" width="200px">
                         <figcaption>Kilograms to Pounds Conversion</figcaption>
                     </figure>
 
@@ -76,16 +76,49 @@
                             <legend>Weight</legend>
                             <label for="Weight">Kilograms</label><br/>
                             
-                            <input type="number" id="k"><br/>
+                            <input type="number" id="kg"><br/>
 
                             <button id="weight"> Convert </button><br/>
 
-                            <input type="number" id="p"><br/>
+                            <input type="number" id="lbs"><br/>
                             
                             <label for="Weight">Pounds</label><br/>
-
+                            Note: Not currently functional w/ current knowledge.
                          </fieldset>
                     </article>
+                    <aside>
+                        To convert kg to lbs, use this formula ('K' = Your Kilograms): K x 2.20462
+                    </aside>
+                </div>
+            </section>
+
+            <section id="distance">
+                <div id="dst">
+                    <figure>
+                        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png" width="200px">
+                        <br/>
+                        <figurecaption>Kilometers to Miles Conversion</figurecaption>
+                    </figure>
+
+                    <article>
+                        <fieldset>
+                            <legend>Distance</legend>
+
+                            <label for="Distance">Kilometers</label><br/>
+
+                            <input type="number" id="km"><br/>
+
+                            <button id="distance">Convert</button><br/>
+
+                            <input type="number" id="mi"><br/>
+
+                            <label for="Distance">Miles</label><br/>
+                            Note: Not currently functional w/ current knowledge.
+                        </fieldset>
+                    </article>
+                    <aside>
+                        To convert km to mi, use this formula ('K' = Your Kilometers): K x 0.621371
+                    </aside>
                 </div>
             </section>
         </div>
