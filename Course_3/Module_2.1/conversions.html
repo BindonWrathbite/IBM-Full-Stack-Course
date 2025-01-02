@@ -20,6 +20,40 @@
                 <!--Redirects to Distance-->
                 <a href="#distance"><button>Distance</button></a>
             </nav>
+
+            <div id='all-conversion-sections'>
+                <!--All conversion sections for Temp, Weight, Distance-->
+
+                <section id='temperature'>
+                    <!--Temp conversion section-->
+                    <div id="tmp">
+                        <figure>
+                            <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="200px"/>
+                            <figcaption>Celsius to Fahrenheit Conversion</figcaption>
+                        </figure>
+
+                        <article>
+                            <!-- Specific Elements for Temp conversion-->
+                             <fieldset>
+                                <legend>Temperature</legend>
+                                <!--Label for temp input-->
+                                <label for="Temperature">Celsius</label> <br/>
+
+                                <input type="number" id="c"><br />
+
+                                <!--Conversion Button-->
+                                <button id="temperature"> Convert </button><br />
+
+                                <!--Label for temp output-->
+                                <input type="number" id="f"><br />
+
+                                <label for="Temperature">Fahrenheit</label> <br/>
+                             </fieldset>
+                        </article>
+                        <aside>To convert celsius to fahrenheit, use this formula ('C' = Your Celsius Temp): (C x 9/5) + 32</aside>
+                    </div>
+                </section>
+            </div>'
         </section>
     </body>
 </html>
