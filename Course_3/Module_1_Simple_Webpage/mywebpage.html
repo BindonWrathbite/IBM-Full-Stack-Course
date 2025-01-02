@@ -68,5 +68,27 @@
             </table>
 
         <p><a href="../../index.html">Home</a></p>
+
+        <h3>Practice Feedback Form</h3>
+        <form action=""/sumbit-feedback" method="post">
+            <fieldset>
+                <legend>I value your feedback!</legend>
+
+                <!--Name Field-->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name." required><br><br>
+
+                <!--Email Field-->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email." required><br><br>
+
+                <!--Comments Field-->
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here." required></textarea><br><br>
+
+                <!--Submit Button-->
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
     </body>
 </html>
