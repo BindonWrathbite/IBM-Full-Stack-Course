@@ -4,7 +4,8 @@
     <head>
         <!--Page title | Displays on browser or tab-->
         <title>Unit Conversions</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <meta viewport="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
@@ -12,18 +13,18 @@
             <!--Main heading-->
             <header>Unit Conversions</header>
             
-            <a href="../../index.html">
-                <button>Home</button>
-            </a> <br/>
-            
             <nav>
-                <!--Contains main unit conversion buttons-->
-                <!--Temp button-->
-                <a href=""#temperature"><button>Temperature</button></a>
-                <!--Redirects to Weight seciont-->
-                <a href="#weight"><button>Weight</button></a>
-                <!--Redirects to Distance-->
-                <a href="#distance"><button>Distance</button></a>
+                <div>
+                    <!--Contains main unit conversion buttons-->
+                    <!--Home Button-->      
+                    <a href="../../index.html"><button>Home</button></a>
+                    <!--Temp button-->
+                    <a href=""#temperature"><button>Temperature</button></a>
+                    <!--Redirects to Weight seciont-->
+                    <a href="#weight"><button>Weight</button></a>
+                    <!--Redirects to Distance-->
+                    <a href="#distance"><button>Distance</button></a>
+                </div>
             </nav>
         </section>
 
@@ -56,11 +57,10 @@
                             <label for="Temperature">Fahrenheit</label> <br/>
                             Note: Not currently functional w/ current knowledge.
                         </fieldset>
+                        <aside>
+                            To convert celsius to fahrenheit, use this formula ('C' = Your Celsius Temp): (C x 9/5) + 32
+                        </aside>
                     </article>
-
-                    <aside>
-                        To convert celsius to fahrenheit, use this formula ('C' = Your Celsius Temp): (C x 9/5) + 32
-                    </aside>
                 </div>
             </section>
 
@@ -87,10 +87,10 @@
                             <label for="Weight">Pounds</label><br/>
                             Note: Not currently functional w/ current knowledge.
                          </fieldset>
+                         <aside>
+                            To convert kg to lbs, use this formula ('K' = Your Kilograms): K x 2.20462
+                         </aside>
                     </article>
-                    <aside>
-                        To convert kg to lbs, use this formula ('K' = Your Kilograms): K x 2.20462
-                    </aside>
                 </div>
             </section>
 
@@ -117,10 +117,10 @@
                             <label for="Distance">Miles</label><br/>
                             Note: Not currently functional w/ current knowledge.
                         </fieldset>
+                        <aside>
+                            To convert km to mi, use this formula ('K' = Your Kilometers): K x 0.621371
+                        </aside>
                     </article>
-                    <aside>
-                        To convert km to mi, use this formula ('K' = Your Kilometers): K x 0.621371
-                    </aside>
                 </div>
             </section>
         </div>
