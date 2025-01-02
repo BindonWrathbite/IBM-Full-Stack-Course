@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue
+  }
+  
+  p {
+    font-family: times;
+    font-size: 15px;
+    color: white;
+  }
+  
+  div {
+    background-color: white;
+    width: 400px;
+    color: black;
+  }
+  
