@@ -6,6 +6,7 @@
         <title>Unit Conversions</title>
         <link rel="stylesheet" href="style.css">
         <meta viewport="width=device-width, initial-scale=1.0">
+        <script type='text/JavaScript' src="conversion.js"></script>
     </head>
 
     <body>
@@ -49,16 +50,17 @@
                             <input type="number" id="c"><br />
 
                             <!--Conversion Button-->
-                            <button id="temperature"> Convert </button><br />
+                            <button id="temperature" onclick='return temp_convert()'> Convert </button>
+                            <button id="tempReset" onclick='return temp_reset()'> Reset </button><br />
 
                             <!--Label for temp output-->
                             <input type="number" id="f"><br />
 
                             <label for="Temperature">Fahrenheit</label> <br/>
-                            Note: Not currently functional w/ current knowledge.
+                            <aside>Note: Reset between conversions</aside>
                         </fieldset>
                         <aside>
-                            To convert celsius to fahrenheit, use this formula ('C' = Your Celsius Temp): (C x 9/5) + 32
+                            To convert celsius to fahrenheit, use this formula: ('C' = Your Celsius Temp): (C x 9/5) + 32
                         </aside>
                     </article>
                 </div>
@@ -80,12 +82,14 @@
                             
                             <input type="number" id="kg"><br/>
 
-                            <button id="weight"> Convert </button><br/>
+                            <button id="weight" onclick="return weight_convert()"> Convert </button>
+                            <button id="weightReset" onclick='return wgt_reset()'> Reset </button><br />
+
 
                             <input type="number" id="lbs"><br/>
                             
                             <label for="Weight">Pounds</label><br/>
-                            Note: Not currently functional w/ current knowledge.
+                            <aside>Note: Reset between conversions</aside>
                          </fieldset>
                          <aside>
                             To convert kg to lbs, use this formula ('K' = Your Kilograms): K x 2.20462
@@ -110,12 +114,13 @@
 
                             <input type="number" id="km"><br/>
 
-                            <button id="distance">Convert</button><br/>
+                            <button id="distance" onclick="return distance_convert()">Convert</button>
+                            <button id="tempReset" onclick='return dist_reset()'> Reset </button><br />
 
                             <input type="number" id="mi"><br/>
 
                             <label for="Distance">Miles</label><br/>
-                            Note: Not currently functional w/ current knowledge.
+                            <aside>Note: Reset between conversions</aside>
                         </fieldset>
                         <aside>
                             To convert km to mi, use this formula ('K' = Your Kilometers): K x 0.621371
