@@ -3,7 +3,7 @@ function App(props) {
 
   return (
     <div>
-      <a href="../../../index.html"><button>Home</button></a>
+      <a href="../../../../index.html"><button>Home</button></a>
       <h1>Zachery Thompson</h1>
       <h2>{currDate.toLocaleTimeString()}</h2>
       <h3>{currDate.toLocaleDateString()}</h3>
